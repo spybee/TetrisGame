@@ -1,6 +1,6 @@
 ﻿namespace TetrisGame
 {
-    partial class MainForm
+    partial class GameForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,16 +30,16 @@
         {
             SuspendLayout();
             // 
-            // MainForm
+            // GameForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(862, 544);
             FormBorderStyle = FormBorderStyle.FixedSingle;
-            Name = "MainForm";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "MainForm";
-            Load += MainForm_Load;
+            Name = "GameForm";
+            StartPosition = FormStartPosition.CenterParent;
+            Text = "GameForm";
+            Load += GameForm_Load;
             ResumeLayout(false);
         }
 
